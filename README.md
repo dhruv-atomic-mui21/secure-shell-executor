@@ -38,7 +38,7 @@ This project demonstrates deterministic tool execution via AST parsing (`bash-pa
 ### Installation
 Clone the repository and install the dependencies:
 ```bash
-git clone https://github.com/yourusername/ts-secure-shell-executor.git
+git clone https://github.com/dhruv-atomic-mui21/ts-secure-shell-executor.git
 cd ts-secure-shell-executor
 npm install
 ```
