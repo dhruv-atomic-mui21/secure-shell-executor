@@ -1,0 +1,23 @@
+{
+  "name": "ts-secure-shell-executor",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "harness": "ts-node src/harness.ts",
+    "start": "npm run harness"
+  },
+  "keywords": [],
+  "author": "GSoC Proposal Contributor",
+  "license": "MIT",
+  "description": "Secure, AST-based shell command validator and deterministic executor using Node.js AbortController.",
+  "dependencies": {
+    "bash-parser": "^0.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "chalk": "^4.1.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.2"
+  }
+}
